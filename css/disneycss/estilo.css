@@ -3,11 +3,14 @@
     src: url("avenir-roman.ttf") format("truetype");
 }
 
+/*
 * {
     margin: 0;
     padding: 0;
+    min-width: auto;
+    max-width: auto;
 }
-
+*/
 
 body {
    padding-top: 70px;
@@ -15,7 +18,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw; /* toda area visivel, view port */
+    /* width: 100vw; */ /* toda area visivel, view port */
     display: flex;
     align-items: center;
     
@@ -38,14 +41,16 @@ max-width: 320px;
     
 }
 
+
 .hero {
     padding-bottom: 170px;
     padding-left: 210px;
     background-repeat: no-repeat;
 }
 
+
 .botao-entrar {
-    margin-bottom: 720px;
+    margin-bottom: auto;
     margin-left: auto;
     padding-top: 10px;
     padding-right: 40px;
@@ -62,11 +67,12 @@ max-width: 320px;
    padding-left: 16px;
    padding-right: 16px;
    cursor: pointer;
- 
+
 }
 
 .botao-assine {
-padding-top: 40px;
+padding-top: 20px;
+margin-left: -120px;
 
 }
 
@@ -80,11 +86,11 @@ cursor: pointer;
 font-size: 18px;
 line-height: 18px;
 
-}
+}   
 
 .small-text {
    color: #f9f9f9;
-   padding-left: 2px;
+ 
 }
 
 .link{
