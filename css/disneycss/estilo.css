@@ -29,6 +29,22 @@ body {
 }
 
 
+@media screen and (max-width: 1700px) {
+body {
+    padding-top: 70px;
+    background-image: url("imagenscss/original.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100vw; */ /* toda area visivel, view port */
+    display: flex;
+    align-items: center;
+    
+      }
+}
+
+
+
 @media screen and (max-width: 400px) {
     body {
         padding-top: 70px;
@@ -36,16 +52,14 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
-        /* width: 100vw; */ /* toda area visivel, view port */
+        width: 100vw; 
         display: flex;
         align-items: center;
         
           }
+
     }
     
-
-
-
 
 
 .titulo {
@@ -56,28 +70,53 @@ body {
     line-height: 38px;
     font-weight: bold;
     color: #f9f9f9;
+    
 }
 
+@media screen and (max-width: 1700px) {
 .logo {
 max-width: 320px;
     
 }
 
+}
 
+@media screen and (max-width: 400px) {
+.logo {
+max-width: 180px;
+
+}
+
+}
+
+@media screen and (max-width: 1700px) {
 .hero {
-    padding-bottom: 170px;
-    padding-left: 210px;
+    padding-bottom: 160px;
     background-repeat: no-repeat;
+    margin-left: 220px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+.hero {
+    position: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+}
+
 }
 
 
 .botao-entrar {
     margin-bottom: auto;
-    margin-left: auto;
-    padding-top: 10px;
-    padding-right: 40px;
+    margin-top: -60px;
+    margin-left: 560px;
+  
    
 }
+
 .entrar  {
    font-family: "Avenir Roman", sans-serif;
    font-size: 18px;
@@ -95,9 +134,10 @@ max-width: 320px;
 .botao-assine {
 padding-top: 20px;
 margin-left: -120px;
-
+display: flex;
 }
 
+@media screen and (max-width: 1700px) {
 .assine {
 color: #f9f9f9;
 font-family: "Avenir Roman",sans-serif;
@@ -110,9 +150,25 @@ line-height: 18px;
 
 }   
 
+}
+
+@media screen and (max-width: 400px) {
+.assine {
+color: #f9f9f9;
+font-family: "Avenir Roman",sans-serif;
+background:  #7b00d6;
+width: 640px;
+height: 68px;
+cursor: pointer;
+font-size: 18px;
+line-height: 18px;
+} 
+}
+
 .small-text {
    color: #f9f9f9;
- 
+    display: inline;
+    margin-left: 100px;
 }
 
 .link{
