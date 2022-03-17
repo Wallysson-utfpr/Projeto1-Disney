@@ -35,7 +35,7 @@ body {
         background-image: url("imagenscss/original-mobile.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        height: auto; /*100vh;*/
+        height: 100vh;
         /* width: 100vw; */ /* toda area visivel, view port */
         display: flex;
         align-items: center;
