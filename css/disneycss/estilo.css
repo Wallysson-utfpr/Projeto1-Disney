@@ -12,8 +12,11 @@
 }
 */
 
+
+
+@media screen and (max-width: 1500px) {
 body {
-   padding-top: 70px;
+    padding-top: 70px;
     background-image: url("imagenscss/original.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,8 +25,27 @@ body {
     display: flex;
     align-items: center;
     
-    
+      }
 }
+
+
+@media screen and (max-width: 400px) {
+    body {
+        padding-top: 70px;
+        background-image: url("imagenscss/original-mobile.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto; /*100vh;*/
+        /* width: 100vw; */ /* toda area visivel, view port */
+        display: flex;
+        align-items: center;
+        
+          }
+    }
+    
+
+
+
 
 
 .titulo {
