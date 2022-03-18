@@ -49,12 +49,13 @@ body {
     body {
         padding-top: 70px;
         background-image: url("imagenscss/original-mobile.jpg");
-        background-size: cover;
+        background-size: auto;
         background-repeat: no-repeat;
         height: 100vh;
         width: 100vw; 
         display: flex;
         align-items: center;
+        
         
           }
 
@@ -165,11 +166,26 @@ line-height: 18px;
 } 
 }
 
-.small-text {
+@media screen and (max-width: 1700px) {
+.small-text1 {
    color: #f9f9f9;
-    display: inline;
-    margin-left: 100px;
+   margin-left: -150px; 
+   /* display:inline; */
+    /*margin-left: 100px;*/
 }
+}
+
+@media screen and (max-width: 400px) {
+    .small-text1 {
+       color: #f9f9f9;
+       margin-left: -50px; 
+       /* display:inline; */
+        /*margin-left: 100px;*/
+    }
+    }
+
+
+
 
 .link{
     font-family: "Avenir Roman",sans-serif;
