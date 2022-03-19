@@ -97,7 +97,7 @@ max-width: 180px;
 .botao-entrar {
     margin-bottom: auto;
     margin-top: -60px;
-    margin-left: 560px;
+    margin-left: 620px;
     
     }
 }
@@ -105,8 +105,8 @@ max-width: 180px;
 @media screen and (max-width: 1500px) {
 .botao-entrar {
     margin-bottom: auto;
-    margin-top: auto;
-    margin-left: auto;
+    margin-top: -60px;
+    margin-left: 480px;
     width: 100%;
    
     }
@@ -147,13 +147,10 @@ max-width: 180px;
    border: 1px solid silver;
    border-radius: 4px;
    background-color: transparent;
-   height: 40px;
-   width: auto;
-   padding-left: 8px;
-   padding-right: 8px;
+   height: 50px;
+   padding-left: 12px;
+   padding-right: 12px;
    cursor: pointer;
-   display: flex;
-   background-size: 100%;
 
     }
 }
