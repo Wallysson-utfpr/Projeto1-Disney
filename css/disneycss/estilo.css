@@ -30,9 +30,22 @@ body {
     /* width: 100vw; */ /* toda area visivel, view port */
     display: flex;
     align-items: center;
+    background-size: 100%;
     
     }
 }
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding-top: 70px;
+        background-image: url("imagenscss/original-mobile.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: block;
+        align-items: center;
+        }
+
+    }
 
 @media screen and (max-width: 768px) {
     body {
@@ -60,6 +73,20 @@ body {
     
 }
 
+@media screen and (max-width: 768px) {
+.titulo {
+    font-family: "Avenir Roman", sans-serif;
+    margin-top: 200px;
+    margin-left: -160px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #f9f9f9;
+    display: flex;
+    
+    }
+}
+
 @media screen and (max-width: 1700px) {
 .logo {
 max-width: 320px;
@@ -76,10 +103,21 @@ max-width: 280px;
 
 }
 
+@media screen and (max-width: 1024px) {
+.logo {
+max-width: 280px;
+    
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 .logo {
-max-width: 180px;
-
+max-width: 1000px;
+max-height: 100px;
+margin-left: -80px;
+margin-top: -30px;
+display: flex;
     }
 
 }
@@ -98,6 +136,7 @@ max-width: 180px;
     margin-bottom: auto;
     margin-top: -60px;
     margin-left: 620px;
+    width: auto;
     
     }
 }
@@ -106,18 +145,28 @@ max-width: 180px;
 .botao-entrar {
     margin-bottom: auto;
     margin-top: -60px;
-    margin-left: 480px;
+    margin-left: 520px;
     width: 100%;
+    width: auto;
    
+    }
+}
+
+@media screen and (max-width: 1024px) {
+.botao-entrar {
+    margin-bottom: auto;
+    margin-top: -640px;
+    margin-left: 860px;
+    width: auto;
+     
     }
 }
 
 @media screen and (max-width: 768px) {
 .botao-entrar {
-    margin-bottom: auto;
-    margin-top: auto;
-    margin-left: auto;
-    width: 100%;
+    
+    margin-top: -720px;
+    margin-left: 380px;
    
     }
 }
@@ -148,28 +197,52 @@ max-width: 180px;
    border-radius: 4px;
    background-color: transparent;
    height: 50px;
-   padding-left: 12px;
-   padding-right: 12px;
+   padding-left: 10px;
+   padding-right: 10px;
    cursor: pointer;
+   
+    }
+}
 
+@media screen and (max-width: 1024px) {
+.entrar  {
+    font-family: "Avenir Roman", sans-serif;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+   
     }
 }
 
 @media screen and (max-width: 768px) {
 .entrar  {
    font-family: "Avenir Roman", sans-serif;
-   font-size: 18px;
-   color: #ffff;
-   border: 1px solid silver;
-   border-radius: 4px;
-   background-color: transparent;
-   height: 40px;
-   width: auto;
    padding-left: 8px;
    padding-right: 8px;
+   height: 45px;
+   width: auto; 
+   border: 1px solid #f9f9f9;
+   margin: 5px;
    cursor: pointer;
-   display: flex;
-   background-size: 100%;
+   border-radius: 4px;
+   box-sizing: border-box;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 15px;
+   line-height: 15px;
+   background-color: black;
+    
+    
+   
 
     }
 }
@@ -190,10 +263,17 @@ margin-left: -155px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .botao-assine {
 padding-top: 20px;
-margin-left: -120px;
+margin-left: -155px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+.botao-assine {
+margin-left: -200px;
 display: flex;
     }
 }
@@ -210,6 +290,7 @@ font-size: 18px;
 line-height: 18px;
 border-radius: 5px;
 border: 8px solid transparent;
+
     } 
 }
 
@@ -226,6 +307,24 @@ line-height: 18px;
 border-radius: 5px;
 border: 8px solid transparent;
 
+
+    }   
+}
+
+@media screen and (max-width: 1024px) {
+.assine {
+color: #f9f9f9;
+font-family: "Avenir Roman",sans-serif;
+background: #00d624;
+width: 600px;
+height: 68px;
+cursor: pointer;
+font-size: 18px;
+line-height: 18px;
+border-radius: 5px;
+border: 8px solid transparent;
+
+
     }   
 }
 
@@ -234,8 +333,8 @@ border: 8px solid transparent;
 color: #f9f9f9;
 font-family: "Avenir Roman",sans-serif;
 background: #0004d6;
-width: 500px;
-height: 68px;
+width: 433px;
+height: 50px;
 cursor: pointer;
 font-size: 18px;
 line-height: 18px;
@@ -243,7 +342,6 @@ border-radius: 5px;
 border: 8px solid transparent;
 
     }   
-
 }
 
 @media screen and (max-width: 1700px) {
@@ -264,10 +362,45 @@ border: 8px solid transparent;
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .small-text1 {
+       color: #f9f9f9;
+       margin-left: -150px; 
+       /* display:inline; */
+        /*margin-left: 100px;*/
+    }
+}
+
 @media screen and (max-width: 768px) {
 .small-text1 {
    color: #f9f9f9;
-   margin-left: -105px; 
+   margin-left: -500px; 
+   padding-left: 270px;
+
+   display: block;
+   /* display:inline; */
+    /*margin-left: 100px;*/
+    }
+}
+
+@media screen and (max-width: 768px) {
+.small-text2 {
+ 
+   color: #f9f9f9;
+   display: flex;
+   margin-left: 270px;
+   margin-top: -24px;
+   display: flex;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+.small-text3 {
+   color: #f9f9f9;
+   margin-left: 280px; 
+   margin-top: -20px;
+   display: block;
    /* display:inline; */
     /*margin-left: 100px;*/
     }
@@ -315,7 +448,7 @@ border: 8px solid transparent;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .link{
     font-family: "Avenir Roman",sans-serif;
     cursor: pointer;
@@ -332,6 +465,30 @@ border: 8px solid transparent;
     padding-top: 20px;
     padding-left: 35px;
     text-decoration: underline;
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+.link{
+    font-family: "Avenir Roman",sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 14px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    padding-left: 35px;
+    text-decoration: underline;
+    display: flex;
+    
 
     }
 }
@@ -374,7 +531,7 @@ font-family: "Avenir Roman",sans-serif;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .link1 {
 font-family: "Avenir Roman",sans-serif;
     cursor: pointer;
@@ -390,6 +547,26 @@ font-family: "Avenir Roman",sans-serif;
     border: none;
     padding-top: 20px;
     text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.link1 {
+font-family: "Avenir Roman",sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 14px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 0px;
+    text-decoration: underline;
+    display: flex;
     }
 }
 
