@@ -19,7 +19,6 @@ body {
     }
 }
 
-
 @media screen and (max-width: 1500px) {
 body {
     padding-top: 70px;
@@ -35,8 +34,6 @@ body {
     }
 }
 
-
-
 @media screen and (max-width: 768px) {
     body {
         padding-top: 70px;
@@ -51,8 +48,6 @@ body {
         }
 
     }
-    
-
 
 .titulo {
     font-family: "Avenir Roman", sans-serif;
@@ -65,22 +60,6 @@ body {
     
 }
 
-@media screen and (max-width: 768px) {
-.logo {
-max-width: 180px;
-
-    }
-
-}
-
-@media screen and (max-width: 1500px) {
-.logo {
-max-width: 320px;
-    
-    }
-
-}
-
 @media screen and (max-width: 1700px) {
 .logo {
 max-width: 320px;
@@ -89,38 +68,30 @@ max-width: 320px;
 
 }
 
-@media only screen and (min-width: 768px) and (min-width: 1500px) {
+@media screen and (max-width: 1500px) {
+.logo {
+max-width: 280px;
+    
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+.logo {
+max-width: 180px;
+
+    }
+
+}
+
+
 .hero {
     padding-bottom: 160px;
     background-repeat: no-repeat;
     margin-left: 220px;
     }
 
-}
 
-
-
-
-
-@media screen and (max-width: 768px) {
-.botao-entrar {
-    margin-bottom: auto;
-    margin-top: auto;
-    margin-left: auto;
-    width: 100%;
-   
-    }
-}
-
-@media screen and (max-width: 1500px) {
-.botao-entrar {
-    margin-bottom: auto;
-    margin-top: auto;
-    margin-left: auto;
-    width: 100%;
-   
-    }
-}
 
 @media screen and (max-width: 1700px) {
 .botao-entrar {
@@ -131,41 +102,23 @@ max-width: 320px;
     }
 }
 
-@media screen and (max-width: 768px) {
-.entrar  {
-   font-family: "Avenir Roman", sans-serif;
-   font-size: 18px;
-   color: #ffff;
-   border: 1px solid silver;
-   border-radius: 4px;
-   background-color: transparent;
-   height: 40px;
-   width: auto;
-   padding-left: 8px;
-   padding-right: 8px;
-   cursor: pointer;
-   display: flex;
-    background-size: 100%;
-
+@media screen and (max-width: 1500px) {
+.botao-entrar {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    width: 100%;
+   
     }
 }
 
-@media screen and (max-width: 1500px) {
-.entrar  {
-   font-family: "Avenir Roman", sans-serif;
-   font-size: 18px;
-   color: #ffff;
-   border: 1px solid silver;
-   border-radius: 4px;
-   background-color: transparent;
-   height: 40px;
-   width: auto;
-   padding-left: 8px;
-   padding-right: 8px;
-   cursor: pointer;
-   display: flex;
-    background-size: 100%;
-
+@media screen and (max-width: 768px) {
+.botao-entrar {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    width: 100%;
+   
     }
 }
 
@@ -186,21 +139,41 @@ max-width: 320px;
     }
 }
 
+@media screen and (max-width: 1500px) {
+.entrar  {
+   font-family: "Avenir Roman", sans-serif;
+   font-size: 18px;
+   color: #ffff;
+   border: 1px solid silver;
+   border-radius: 4px;
+   background-color: transparent;
+   height: 40px;
+   width: auto;
+   padding-left: 8px;
+   padding-right: 8px;
+   cursor: pointer;
+   display: flex;
+   background-size: 100%;
 
-
-@media screen and (max-width: 768px) {
-.botao-assine {
-padding-top: 20px;
-margin-left: -120px;
-display: flex;
     }
 }
 
-@media screen and (max-width: 1500px) {
-.botao-assine {
-padding-top: 20px;
-margin-left: -120px;
-display: flex;
+@media screen and (max-width: 768px) {
+.entrar  {
+   font-family: "Avenir Roman", sans-serif;
+   font-size: 18px;
+   color: #ffff;
+   border: 1px solid silver;
+   border-radius: 4px;
+   background-color: transparent;
+   height: 40px;
+   width: auto;
+   padding-left: 8px;
+   padding-right: 8px;
+   cursor: pointer;
+   display: flex;
+    background-size: 100%;
+
     }
 }
 
@@ -212,36 +185,20 @@ display: flex;
     }
 }
 
-
-
-@media screen and (max-width: 768px) {
-.assine {
-color: #f9f9f9;
-font-family: "Avenir Roman",sans-serif;
-background: #7b00d6;
-width: 640px;
-height: 68px;
-cursor: pointer;
-font-size: 18px;
-line-height: 18px;
-
-    }   
-
+@media screen and (max-width: 1500px) {
+.botao-assine {
+padding-top: 20px;
+margin-left: -120px;
+display: flex;
+    }
 }
 
-@media screen and (max-width: 1500px) {
-.assine {
-color: #f9f9f9;
-font-family: "Avenir Roman",sans-serif;
-background: #7b00d6;
-width: 640px;
-height: 68px;
-cursor: pointer;
-font-size: 18px;
-line-height: 18px;
-
-    }   
-
+@media screen and (max-width: 768px) {
+.botao-assine {
+padding-top: 20px;
+margin-left: -120px;
+display: flex;
+    }
 }
 
 @media screen and (max-width: 1700px) {
@@ -257,6 +214,53 @@ line-height: 18px;
     } 
 }
 
+@media screen and (max-width: 1500px) {
+.assine {
+color: #f9f9f9;
+font-family: "Avenir Roman",sans-serif;
+background: #7b00d6;
+width: 640px;
+height: 68px;
+cursor: pointer;
+font-size: 18px;
+line-height: 18px;
+
+    }   
+}
+
+@media screen and (max-width: 768px) {
+.assine {
+color: #f9f9f9;
+font-family: "Avenir Roman",sans-serif;
+background: #7b00d6;
+width: 640px;
+height: 68px;
+cursor: pointer;
+font-size: 18px;
+line-height: 18px;
+
+    }   
+
+}
+
+@media screen and (max-width: 1700px) {
+    .small-text1 {
+       color: #f9f9f9;
+       margin-left: -50px; 
+       /* display:inline; */
+        /*margin-left: 100px;*/
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .small-text1 {
+       color: #f9f9f9;
+       margin-left: -50px; 
+       /* display:inline; */
+        /*margin-left: 100px;*/
+    }
+}
+
 @media screen and (max-width: 768px) {
 .small-text1 {
    color: #f9f9f9;
@@ -266,26 +270,47 @@ line-height: 18px;
     }
 }
 
-@media screen and (max-width: 1500px) {
-    .small-text1 {
-       color: #f9f9f9;
-       margin-left: -50px; 
-       /* display:inline; */
-        /*margin-left: 100px;*/
-    }
-}
-
 @media screen and (max-width: 1700px) {
-    .small-text1 {
-       color: #f9f9f9;
-       margin-left: -50px; 
-       /* display:inline; */
-        /*margin-left: 100px;*/
+.link{
+    font-family: "Avenir Roman",sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+    padding-left: 35px;
+    text-decoration: underline;
+
     }
 }
 
+@media screen and (max-width: 1500px) {
+.link{
+    font-family: "Avenir Roman",sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+    padding-left: 35px;
+    text-decoration: underline;
 
-
+    }
+}
 
 @media screen and (max-width: 768px) {
 .link{
@@ -308,9 +333,9 @@ line-height: 18px;
     }
 }
 
-@media screen and (max-width: 1500px) {
-.link{
-    font-family: "Avenir Roman",sans-serif;
+@media screen and (max-width: 1700px) {
+.link1 {
+font-family: "Avenir Roman",sans-serif;
     cursor: pointer;
     color: #f9f9f9;
     text-align: inherit;
@@ -323,15 +348,13 @@ line-height: 18px;
     background-color: transparent;
     border: none;
     padding-top: 20px;
-    padding-left: 35px;
     text-decoration: underline;
-
     }
 }
 
-@media screen and (max-width: 1700px) {
-.link{
-    font-family: "Avenir Roman",sans-serif;
+@media screen and (max-width: 1500px) {
+.link1 {
+font-family: "Avenir Roman",sans-serif;
     cursor: pointer;
     color: #f9f9f9;
     text-align: inherit;
@@ -344,9 +367,7 @@ line-height: 18px;
     background-color: transparent;
     border: none;
     padding-top: 20px;
-    padding-left: 35px;
     text-decoration: underline;
-
     }
 }
 
@@ -369,40 +390,6 @@ font-family: "Avenir Roman",sans-serif;
     }
 }
 
-@media screen and (max-width: 1500px) {
-.link1 {
-font-family: "Avenir Roman",sans-serif;
-    cursor: pointer;
-    color: #f9f9f9;
-    text-align: inherit;
-    font-size: 16px;
-    line-height: 26px;
-    list-style: none;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .2px;
-    background-color: transparent;
-    border: none;
-    padding-top: 20px;
-    text-decoration: underline;
-    }
-}
 
-@media screen and (max-width: 1700px) {
-.link1 {
-font-family: "Avenir Roman",sans-serif;
-    cursor: pointer;
-    color: #f9f9f9;
-    text-align: inherit;
-    font-size: 16px;
-    line-height: 26px;
-    list-style: none;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .2px;
-    background-color: transparent;
-    border: none;
-    padding-top: 20px;
-    text-decoration: underline;
-    }
-}
+
+
