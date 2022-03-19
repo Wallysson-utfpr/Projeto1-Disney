@@ -97,7 +97,7 @@ max-width: 320px;
 
 @media screen and (max-width: 1500px) {
 .logo {
-max-width: 280px;
+max-width: 260px;
     
     }
 
@@ -105,7 +105,7 @@ max-width: 280px;
 
 @media screen and (max-width: 1024px) {
 .logo {
-max-width: 280px;
+max-width: 200px;
     
     }
 
@@ -131,34 +131,47 @@ display: flex;
 
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1700px) { 
 .botao-entrar {
     margin-bottom: auto;
     margin-top: -60px;
-    margin-left: 620px;
-    width: auto;
+    margin-left: 640px;
+   
     
     }
 }
+
 
 @media screen and (max-width: 1500px) {
 .botao-entrar {
     margin-bottom: auto;
     margin-top: -60px;
-    margin-left: 520px;
-    width: 100%;
-    width: auto;
-   
+    margin-left: 500px;
+  
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+.botao-entrar {
+  margin-left: 400px;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+.botao-entrar {
+  margin-left: 240px;
+
     }
 }
 
 @media screen and (max-width: 1024px) {
 .botao-entrar {
     margin-bottom: auto;
-    margin-top: -640px;
-    margin-left: 860px;
-    width: auto;
-     
+    margin-top: -600px;
+    margin-left: 840px;
+    
     }
 }
 
@@ -167,6 +180,7 @@ display: flex;
     
     margin-top: -720px;
     margin-left: 380px;
+    padding-left: auto;
    
     }
 }
@@ -204,11 +218,45 @@ display: flex;
     }
 }
 
+
+@media screen and (max-width: 1200px) {
+.entrar  {
+   font-family: "Avenir Roman", sans-serif;
+   font-size: 18px;
+   color: #ffff;
+   border: 1px solid silver;
+   border-radius: 4px;
+   background-color: transparent;
+   height: 50px;
+   padding-left: 10px;
+   padding-right: 10px;
+   cursor: pointer;
+   
+    }
+}
+
+@media screen and (max-width: 1100px) {
+.entrar  {
+   font-family: "Avenir Roman", sans-serif;
+   font-size: 18px;
+   color: #ffff;
+   border: 1px solid silver;
+   border-radius: 4px;
+   background-color: transparent;
+   height: 50px;
+   padding-left: 10px;
+   padding-right: 10px;
+   cursor: pointer;
+   
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
 .entrar  {
     font-family: "Avenir Roman", sans-serif;
-    background-color: #4CAF50;
-    border: none;
+    background-color: black;
+    border: 1px solid silver;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -298,7 +346,7 @@ border: 8px solid transparent;
 .assine {
 color: #f9f9f9;
 font-family: "Avenir Roman",sans-serif;
-background: #00d624;
+background: #7b00d6;
 width: 600px;
 height: 68px;
 cursor: pointer;
@@ -315,7 +363,7 @@ border: 8px solid transparent;
 .assine {
 color: #f9f9f9;
 font-family: "Avenir Roman",sans-serif;
-background: #00d624;
+background: #7b00d6;
 width: 600px;
 height: 68px;
 cursor: pointer;
@@ -332,7 +380,7 @@ border: 8px solid transparent;
 .assine {
 color: #f9f9f9;
 font-family: "Avenir Roman",sans-serif;
-background: #0004d6;
+background: #7b00d6;
 width: 433px;
 height: 50px;
 cursor: pointer;
@@ -348,8 +396,6 @@ border: 8px solid transparent;
     .small-text1 {
        color: #f9f9f9;
        margin-left: -100px; 
-       /* display:inline; */
-        /*margin-left: 100px;*/
     }
 }
 
@@ -357,8 +403,6 @@ border: 8px solid transparent;
     .small-text1 {
        color: #f9f9f9;
        margin-left: -150px; 
-       /* display:inline; */
-        /*margin-left: 100px;*/
     }
 }
 
@@ -366,8 +410,6 @@ border: 8px solid transparent;
     .small-text1 {
        color: #f9f9f9;
        margin-left: -150px; 
-       /* display:inline; */
-        /*margin-left: 100px;*/
     }
 }
 
@@ -376,10 +418,7 @@ border: 8px solid transparent;
    color: #f9f9f9;
    margin-left: -500px; 
    padding-left: 270px;
-
    display: block;
-   /* display:inline; */
-    /*margin-left: 100px;*/
     }
 }
 
