@@ -185,8 +185,8 @@ display: flex;
 @media screen and (max-width: 1500px) {
 .botao-assine {
 padding-top: 20px;
-margin-left: -120px;
-display: flex;
+margin-left: -150px;
+
     }
 }
 
@@ -208,6 +208,8 @@ height: 68px;
 cursor: pointer;
 font-size: 18px;
 line-height: 18px;
+border-radius: 5px;
+border: 8px solid transparent;
     } 
 }
 
@@ -216,11 +218,13 @@ line-height: 18px;
 color: #f9f9f9;
 font-family: "Avenir Roman",sans-serif;
 background: #7b00d6;
-width: 640px;
+width: 600px;
 height: 68px;
 cursor: pointer;
 font-size: 18px;
 line-height: 18px;
+border-radius: 5px;
+border: 8px solid transparent;
 
     }   
 }
@@ -230,11 +234,13 @@ line-height: 18px;
 color: #f9f9f9;
 font-family: "Avenir Roman",sans-serif;
 background: #7b00d6;
-width: 640px;
+width: 500px;
 height: 68px;
 cursor: pointer;
 font-size: 18px;
 line-height: 18px;
+border-radius: 5px;
+border: 8px solid transparent;
 
     }   
 
