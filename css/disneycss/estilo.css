@@ -16,7 +16,7 @@ body {
   body {
     padding-top: 70px;
     background-image: url("imagenscss/original-mobile.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     display: block;
     align-items: center;
