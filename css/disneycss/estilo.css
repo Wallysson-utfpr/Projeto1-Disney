@@ -17,7 +17,7 @@ body {
     padding-top: 70px;
     background-image: url("imagenscss/original-mobile.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat center;
     display: block;
     align-items: center;
   }
@@ -76,7 +76,7 @@ body {
 @media screen and (max-width: 360px) {
   .titulo {
     font-family: "Avenir Roman", sans-serif;
-    margin-top: 120px;
+    margin-top: 240px;
     margin-left: -185px;
     font-size: 22px;
     line-height: 32px;
